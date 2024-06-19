@@ -1,6 +1,6 @@
 import { HttpRequest, HttpResponseInit, InvocationContext, app } from '@azure/functions';
 import { AzureOpenAIEmbeddings } from '@langchain/openai';
-import { PDFLoader } from 'langchain/document_loaders/fs/pdf';
+import { PDFLoader } from '@langchain/community/document_loaders/fs/pdf';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { AzureAISearchVectorStore } from '@langchain/community/vectorstores/azure_aisearch';
 import { OllamaEmbeddings } from '@langchain/community/embeddings/ollama';
